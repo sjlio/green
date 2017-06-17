@@ -1,0 +1,47 @@
+
+
+
+.topBoder {
+  border-top: 10px solid $green;
+}
+
+
+
+.navbar-custom .navbar-nav .nav-link {
+    color: $gray;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+// /* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: $white;
+    background-color: $green;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.ul-set {
+  overflow: auto;
+  list-style-type: none;
+}
+
+.li-dist {
+    margin-right: 0px;
+    border-right: 1px solid #aaa;
+    padding: 0 20px;
+}
+
+.li-dist:last-child {
+  border-right: none;
+}

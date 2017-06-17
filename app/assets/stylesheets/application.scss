@@ -1,0 +1,25 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+
+// font-family: 'Crete Round', serif;
+// font-family: 'Candal', sans-serif;
+// font-family: 'Ramabhadra', sans-serif;
+// font-family: 'Devonshire', cursive;
+
+@import "bootstrap";
+$enable-flex: true;
+
+body {
+  margin-top: 100px;
+}
+
+/* External Files*/
+@import "scss/variables";
+@import "scss/navbar";
+@import "scss/cover";
+@import "scss/button";
+@import "scss/services";
+@import "scss/insurance";
+@import "scss/footer";
+@import "scss/info";
+@import "scss/condition";
+@import "scss/restoration";

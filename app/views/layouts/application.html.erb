@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Green</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Crete+Round|Hammersmith+One|Oswald:400,600,700|Passion+One|Raleway:300|Teko|Ubuntu+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <%= render "sections/nav" %>
+
+
+    <%= yield %>
+
+    <%= render "sections/insurance" %>
+    <%= render "sections/footer" %>
+    <%= render "sections/condition" %>
+  </body>
+</html>

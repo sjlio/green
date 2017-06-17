@@ -1,0 +1,40 @@
+
+<div class="">
+
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-custom py-3 topBoder  fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <%= link_to image_tag("resto.png"), "/" %>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto ul-set">
+
+      <!-- <li class="divider-vertical"></li> -->
+
+      <li class="nav-item li-dist">
+        <%= link_to "Water Damage", restoration_water_path, class: "nav-link" %>
+      </li>
+
+      <li class="nav-item li-dist">
+        <%= link_to "Fire Damage", restoration_fire_path, class: "nav-link" %>
+      </li>
+
+      <li class="nav-item li-dist">
+        <%= link_to "Mold Remediation", restoration_mold_path, class: "nav-link" %>
+      </li>
+
+      <li class="nav-item li-dist">
+        <%= link_to "Odor Removal", restoration_odor_path, class: "nav-link" %>
+      </li>
+
+      <li class="nav-item li-dist">
+        <%= link_to "Storm Damage", restoration_storm_path, class: "nav-link" %>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+</div>
