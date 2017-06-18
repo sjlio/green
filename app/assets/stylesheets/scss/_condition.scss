@@ -1,0 +1,25 @@
+.condition-bg {
+   background-color: darken($gray,5%);
+   color: darken($white,20%);
+   padding: 15px;
+   font-size: 14px;
+}
+
+.inl {
+    display:inline;
+    margin-right: 0px;
+    border-right: 1px solid #aaa;
+    padding: 0 20px;
+}
+
+.inl:last-child {
+  border-right: none;
+}
+
+.inl:hover a {
+color: $green;
+}
+
+.t-colored {
+  color: darken($white,20%);
+}
